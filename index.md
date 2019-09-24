@@ -1,5 +1,20 @@
 # EmergensUI Blog
 
+#### Blog Entry #6 (September 24, 2019)
+
+Previously discussed the budget with the group of EmergensUI and the different sensors that we're all going to use, made sure that each of our sensors correspond to our proposal properly. 
+
+Current budget for my portion can be found here. 
+
+[Budget Excel Sheet](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/documentation/ProjectBudget.xlsx)
+
+[Budget PDF](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/documentation/ProjectBudget.pdf)
+
+
+#### Blog Entry #5 (September 18, 2019)
+
+Rediscussed the software project with Professor Austin Tian, confirmed that we're working on HUD2 (Driver Assist) and trying to improve the pre-existing one. Got verification from Austin Tian that our idea in including a medical information tab within the vehicle dashboard. 
+
 #### Blog Entry #4 (September 17, 2019)
 
 Discussed the project schedule with the group members and included several project notes to serveral tasks to indicate that they have been completed. Will update schedule as more tasks are completed.
