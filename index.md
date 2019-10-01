@@ -1,5 +1,13 @@
 # EmergensUI Blog
 
+#### Blog Entry #7 (October 1, 2019)
+
+Orders for the items included in the budget have been placed. Proof of purchases of those orders have been uploaded to github to be made for viewing. 
+
+Links for the document have been included below.
+
+[Proof of Purchases](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/documentation/ProofOfPurchases.pdf)
+
 #### Blog Entry #6 (September 24, 2019)
 
 Previously discussed the budget with the group of EmergensUI and the different sensors that we're all going to use, made sure that each of our sensors correspond to our proposal properly. 
