@@ -4,6 +4,11 @@
 
 Created the PCB board for the project, uploaded the schematics, breadboard design, and pcb design. Made mistakes, so changing the design for correction. 
 
+[Schematics]()
+[Breadboard Design]()
+[PCB]()
+[Fizz File]()
+
 #### Blog Entry #8 (October 8, 2019)
 
 Confirmed purchases with the rest of the group, retrieving headers for the connections of Blue Pill and Sensors.
