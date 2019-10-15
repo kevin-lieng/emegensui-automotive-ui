@@ -1,5 +1,13 @@
 # EmergensUI Blog
 
+#### Blog Entry #9 (October 15, 2019)
+
+Created the PCB board for the project, uploaded the schematics, breadboard design, and pcb design. Made mistakes, so changing the design for correction. 
+
+#### Blog Entry #8 (October 8, 2019)
+
+Confirmed purchases with the rest of the group, retrieving headers for the connections of Blue Pill and Sensors.
+
 #### Blog Entry #7 (October 1, 2019)
 
 Orders for the items included in the budget have been placed. Proof of purchases of those orders have been uploaded to github to be made for viewing. 
