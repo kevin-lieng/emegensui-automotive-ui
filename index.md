@@ -6,15 +6,18 @@ Created the PCB board for the project, uploaded the schematics, breadboard desig
 help from Professor Kristian Medri. I have made the corrections and reuploaded revised versions of each below section of my PCB and Breadboard design below.
 
 [Schematics](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/electronics/PCB%20Schematic.png)
+
 [Breadboard Design](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/electronics/PCB%20Breadboard%20Design.png)
+
 [PCB](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/electronics/PCB%20Board%20Plan%20-%20Revised.png)
+
 [Fizz File](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/electronics/NoSTM32.fzz)
 
 Images can also be viewed below this post. 
 
-![Schematics](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/electronics/PCB%20Schematic.png)
-![Breadboard Design](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/electronics/PCB%20Breadboard%20Design.png)
-![PCB](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/electronics/PCB%20Board%20Plan%20-%20Revised.png)
+![Schematics](electronics/PCB%20Schematic.png)
+![Breadboard Design](electronics/PCB%20Breadboard%20Design.png)
+![PCB](electronics/PCB%20Board%20Plan%20-%20Revised.png)
 
 We have also met with our colloborator Professor Dennis Kappen after our PCB check up. We have received some feedback and what he believes will help us during our future
 software and hardware plans for the rest of the system.
