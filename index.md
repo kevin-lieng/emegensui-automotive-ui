@@ -2,12 +2,22 @@
 
 #### Blog Entry #9 (October 15, 2019)
 
-Created the PCB board for the project, uploaded the schematics, breadboard design, and pcb design. Made mistakes, so changing the design for correction. 
+Created the PCB board for the project, uploaded the schematics, breadboard design, and pcb design. I made some mistakes, during my PCB arrangement but received 
+help from Professor Kristian Medri. I have made the corrections and reuploaded revised versions of each below section of my PCB and Breadboard design below.
 
-[Schematics]()
-[Breadboard Design]()
-[PCB]()
-[Fizz File]()
+[Schematics](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/electronics/PCB%20Schematic.png)
+[Breadboard Design](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/electronics/PCB%20Breadboard%20Design.png)
+[PCB](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/electronics/PCB%20Board%20Plan%20-%20Revised.png)
+[Fizz File](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/electronics/NoSTM32.fzz)
+
+Images can also be viewed below this post. 
+
+![Schematics](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/electronics/PCB%20Schematic.png)
+![Breadboard Design](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/electronics/PCB%20Breadboard%20Design.png)
+![PCB](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/electronics/PCB%20Board%20Plan%20-%20Revised.png)
+
+We have also met with our colloborator Professor Dennis Kappen after our PCB check up. We have received some feedback and what he believes will help us during our future
+software and hardware plans for the rest of the system.
 
 #### Blog Entry #8 (October 8, 2019)
 
