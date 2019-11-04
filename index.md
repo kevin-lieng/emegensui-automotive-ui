@@ -1,5 +1,21 @@
 # EmergensUI Blog
 
+#### Blog Entry #10 (October 29, 2019)
+
+Demonstrated my breadboarded demo to Professor Kristian Medri; however, it seemed to not be reading correctly. SDA and SCL data transmission didn't seem to work correctly between the Arduino and my sensor. There may have to be a change in IDE or Development platform. However, gotta first recheck the addresses on the sensors to see where the SDA and SCL are reading from. 
+
+Pictures of the breadboarded demo can be found below.
+Codes can also be found in the current folder on github.
+
+[Codes](https://github.com/kevin-lieng/emegensui-automotive-ui/tree/master/software/BerryIMU%20Codes)
+
+Breadboarded Arduino + Sensor Design + Readings
+
+![BreadboardDemo](images/arduino-breadboard.jpg)
+![SensorConnection](images/berryimu-arduino-breadboard.jpg)
+![Readings](images/readings.png)
+
+
 #### Blog Entry #9 (October 15, 2019)
 
 Created the PCB board for the project, uploaded the schematics, breadboard design, and pcb design. I made some mistakes, during my PCB arrangement but received 
