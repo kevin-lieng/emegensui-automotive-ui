@@ -1,5 +1,20 @@
 # EmergensUI Blog
 
+#### Blog Entry #12 (November 12, 2019)
+Although my PCB was capable of turning on, it wasn't possible for it grab readings due to the previous errors. I have ordered my new IDE and PCB with redid fritzing for a new PCB part. Due to this error, my financial budget went over the said amount that was stated in the previous parts. With the retrieval of my new part, I was able to read the sensor through testing constantly because of this constant reading that I'm able to get, I have ordered a PCB board along to go along with the new IDE. 
+
+The new fzz file for the schematic of my build can be found here. 
+
+[Huzzah! + Sensor Fzz](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/electronics/Feather%20%2BBerryIMU%20%20Remake%20PCB.fzz)
+#### Blog Entry #11 (November 7, 2019)
+After thorough testing my soldered PCB, I finally discovered the reason why my sensor had not been working with my Blue Pill, the voltage that it's been sending out to the sensor wasn't strong enough to turn on the sensor in the first place, but it still ran the program without reading anything, such as seen in the prior posts. 
+
+Further evidence can be seen here in the image below. 
+
+![FailedPCB](images/failedpcb+ide.jpg)
+
+According to the above picture, you can see that the portions where it should be giving out 3.3V isn't doing so. Even when the voltmeter is attached directly on both 3.3V and GND, it cannot read 3.3V . Therefore, I have decided to switch IDEs completely, but still working on arduino type coding. The next IDE I've decided to tryout is the Adafruit Feather Huzzah! ESP8266 that also works through ArduinoIDE code. 
+
 #### Blog Entry #10 (October 29, 2019)
 
 Demonstrated my breadboarded demo to Professor Kristian Medri; however, it seemed to not be reading correctly. SDA and SCL data transmission didn't seem to work correctly between the Arduino and my sensor. There may have to be a change in IDE or Development platform. However, gotta first recheck the addresses on the sensors to see where the SDA and SCL are reading from. 
