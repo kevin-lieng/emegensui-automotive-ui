@@ -1,5 +1,17 @@
 # EmergensUI Blog
 
+#### Blog Entry #13 (November 12, 2019)
+
+Achieved results with my testing today with the new development platform (Adafruit Feather Huzzah! ESP8266), it proved that the PCB board was not the problem but my previous development platform the STM32 blue pill. When connecting the sensor and development platform to the customized PCB, I was able to retrieve results. 
+
+These results can be shown in the pictures below. However the new PCB board that I have designed will have both of them fitting onto one board. The new design will also be posted below. 
+
+![newConnection](images/newDevelopmentPlatform.jpg)
+![newReadings](images/newReadings.png)
+![newPCB](electronics/ESP8266BerryIMU.png)
+
+Due to this issue, I am behind schedule by a week, but I can catch up using dimensions of the new PCB board, sensor, and development platform. 
+
 #### Blog Entry #12 (November 12, 2019)
 Although my PCB was capable of turning on, it wasn't possible for it grab readings due to the previous errors. I have ordered my new IDE and PCB with redid fritzing for a new PCB part. Due to this error, my financial budget went over the said amount that was stated in the previous parts. With the retrieval of my new part, I was able to read the sensor through testing constantly because of this constant reading that I'm able to get, I have ordered a PCB board along to go along with the new IDE. 
 
