@@ -1,5 +1,27 @@
 # EmergensUI Blog
 
+
+
+#### Blog Entry #14 (November 18, 2019)
+
+On this date, I received the new PCB that I designed for my new development platform ESP8266. It was after I soldered the new PCB and tested the product that I redesigned my enclosure with new dimensions. The problem with my casing however, is that it would take too long to print at school. Therefore I have outsourced my 3D printing job out to a third-party service and a friend with a 3D printer to expedite the printing job. 
+
+The new PCB board that I received allows the attachment of both the sensor and development platform to be attached directly to the board through female headers. 
+
+In this blog post, I have included pictures of my new PCB and its attachments, pictures of the enclosure and the lid, and the files that are required to print the enclosure in general. 
+
+![newPCB](images/RemadePCB.jpg)
+The new PCB with the development platform and sensor attached. 
+
+![PCBEnclosure](images/PCBEnclosure.png)
+![PCBEnclosureLid](images/PCBEnclosureLid.png)
+
+I created this enclosure through the use of an online CAD program called TinkerCAD and exported the STL files included below: 
+
+[PCBEnclosure](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/mechanical/PCBEnclosureFixed.stl)
+
+[PCBEnclosureLid](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/mechanical/PCBEnclosureLidFixed.stl)
+
 #### Blog Entry #13 (November 12, 2019)
 
 Achieved results with my testing today with the new development platform (Adafruit Feather Huzzah! ESP8266), it proved that the PCB board was not the problem but my previous development platform the STM32 blue pill. When connecting the sensor and development platform to the customized PCB, I was able to retrieve results. 
