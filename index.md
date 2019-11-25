@@ -1,6 +1,11 @@
 # EmergensUI Blog
 
+#### Blog Entry #15 (November 21, 2019)
+I received the PCB from the third-party source and the dimensions of the enclosure fit my PCB with its sensors and development platform. The enclosure is also able to close; however, the closure doesn't lock in place and is loose. This is fine, since the movements of the sensor should be as minimal as possible to achieve proper readings of changes. 
 
+The enclosure pictures can be found in the portion below this blog post:
+![closedCase](images/enclosureClosedFinal.jpg)
+![openCase](images/enclosureOpenFinal.jpg)
 
 #### Blog Entry #14 (November 18, 2019)
 
