@@ -1,5 +1,13 @@
 # EmergensUI Blog
 
+#### Blog Entry #16 (November 25, 2019)
+The presentation for my hardware project has been completed and will be uploaded for viewing on my GitHub account following this blog post. Currently on schedule and ready to present November 26, 2019 at 2:15PM. 
+
+Presentation can be found here:
+
+[Presentation](https://github.com/kevin-lieng/emegensui-automotive-ui/blob/master/documentation/HardwareProjectPresentation.pptx)
+
+
 #### Blog Entry #15 (November 21, 2019)
 I received the PCB from the third-party source and the dimensions of the enclosure fit my PCB with its sensors and development platform. The enclosure is also able to close; however, the closure doesn't lock in place and is loose. This is fine, since the movements of the sensor should be as minimal as possible to achieve proper readings of changes. 
 
