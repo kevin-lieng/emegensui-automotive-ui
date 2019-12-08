@@ -4,8 +4,8 @@
 ## Table of Contents 
 --------------------------------------------------------
 - [Introduction](#Introduction)
-- [System Diagram](#System%20Diagram)
-- [Components Needed (Cost)](#Components%20Needed%20(Cost))
+- [System Diagram](#System-Diagram)
+- [Components Needed (Cost)](#Components-Needed-(Cost))
 
 --------------------------------------------------------
 ## Introduction
