@@ -8,6 +8,8 @@
 - [Components Needed (Cost)](#Components-Needed-Cost)
 - [Time Commitment](#time-commitment)
 - [Mechanical Assembly](#mechanical-assembly)
+- [PCB and Soldering](#PCB-and-soldering)
+- [Enclosure](#Enclosure)
 
 --------------------------------------------------------
 ## Introduction
@@ -116,3 +118,35 @@ The Serial Monitor can be found in the same top menu of Arduino IDE under **Tool
 ![newReadings](images/newReadings.png)
 
 When you have achieved the window above, you are halfway complete the project and ready for the soldering of the PCB and creation of the enclosure. 
+
+## PCB and Soldering
+-------------------------------------------------------
+The creation and implementation of the PCB is to remove the wires needed to have the hardware function. To simplify this step, I have included the gerber files inside of a RAR file that can be found here: 
+
+- [PCB Gerber Files](electronics/PCB%20Gerber.rar)
+
+The file above can be sent to a PCB manufacturing service to retrieve a PCB for soldering. When the PCB is done and retrieved, you may solder the following pinouts with female headers: 
+
+![newPCB](electronics/ESP8266BerryIMU.png)
+
+After the soldering of female headers onto the above pinouts, you can solder male headers onto the 3.3V, SDA, SCL, and GND pinouts of sensor and development platform. Feel free to solder more than needed if it would make it easier to hold the sensor and ESP8266 onto the PCB. After soldering, the sensor, ESP8266, and PCB can be connected like the following:
+
+![PCBConnection](images/RemadePCB.jpg)
+
+After the connection of the PCB, sensor, and ESP8266, you may reconnect the hardware to your computer to test if the program still works. The readings of the program should still be the same as the first testing. 
+
+## Enclosure 
+------------------------------------------------------------
+The final portion of this project can be done by using the stl files found in this repository. These files contain the design of the enclosure of the project and can be used to slice and 3D printed through school or a third-party printing service. The files can be found here:
+
+- [Enclosure](mechanical/PCBEnclosureFixed.stl)
+- [Enclosure Lid](mechanical/PCBEnclosureLidFixed.stl)
+
+By using Cura, you may use these files to slice them and retrieve a **.g file** . This **.g file** are used by 3D Printers for printing purposes. When using a third-party 3D printing service however, you only require the stl files. They would slice the project itself and print the enclosure for you. 
+
+When the enclosure is received, there will be hole at the back of the enclosure to allow for the MicroUSB to pass and connect to the development platform of ESP8266. There is no need for ventilation at this version of the project due to the sensor only reading and measuring inertial and directional values. 
+
+After the integration of the enclosure and the project, the final product looks like the following: 
+
+![FinishedProduct](images/enclosureClosedFinal.jpg)
+![FinishedProductOpen](images/enclosureOpenFinal.jpg)
