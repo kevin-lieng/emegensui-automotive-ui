@@ -81,3 +81,31 @@ After the sucessful connection of your platform, you will then need to test your
     }
 
 Upon the successful uploading of this code to your platform, you shall see the LEDs of the ESP8266 to be blinking. 
+
+### Step Two: Connection of the BerryIMU Sensor
+
+The next step would be the connection of the BerryIMU sensor to the development platform itself. The best way to do this would be to first solder male headers to the sensor itself. In the following locations:
+
+![mechanicalConnection](images/mechanicalconnection.png)
+
+After soldering male headers to those pinouts of BerryIMU sensor on the right, you can then use several female to female wires to connect the sensor to the platform like the diagram above. 
+
+## Step Three: Implementing Code For Testing
+
+The next step would be to implement the code for testing the sensors itself and if they're capable of reading gyrometer, magnetometer, and accelerometer data. To do this, you can start a new sketch within the Arduino IDE and have the main file include the code within the BerryIMU.ino file. 
+
+- [BerryIMU.ino File](software/BerryIMU%20Codes/BerryIMU.ino) 
+
+You can then include the following files within the same folder of the main BerryIMU.ino file: 
+
+- [IMU.cpp File](software/BerryIMU%20Codes/IMU.cpp)
+- [IMU.h File](software/BerryIMU%20Codes/IMU.h)
+- [LSM9DS0.h File](software/BerryIMU%20Codes/LSM9DS0.h)
+- [LSM9DS1.h File](software/BerryIMU%20Codes/LSM9DS1.h)
+
+When implemented correctly, your Arduino IDE window should look like the following: 
+
+![arduinoIDE](images/arduinoIDE.png)
+
+### Step Four: Uploading and Checking Readings
+
