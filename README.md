@@ -7,6 +7,7 @@
 - [System Diagram](#System-Diagram)
 - [Components Needed (Cost)](#Components-Needed-Cost)
 - [Time Commitment](#time-commitment)
+- [Mechanical Assembly](#mechanical-assembly)
 
 --------------------------------------------------------
 ## Introduction
@@ -43,3 +44,40 @@ Although a user using this documentation can develop the project in three days w
 ![SchedulePDF](images/schedule.png)
 
 This is due to the extra time needed to work out errors that have occured and the switching of development platforms and remaking of PCB board and enclosures to meet the new components needed. The components that are shown as needed in the [budget](#components-needed-cost) portion above have the unnecessary products taken out. If you would like to see the the previous components that were used, the may be found [here](documentation/ProjectBudget.pdf).
+
+## Mechanical Assembly
+------------------------------------------------------------
+### Step One : Setting up the Adafruit Feather Huzzah ESP8266
+
+Before connecting the sensor to the development platform, ESP8266, you should setup the development platform itself. The development platform should be enabled to be programmed through the Arduino IDE (Integrated Development Environment). 
+
+To start, you would need to [download the Arduino IDE from Arduino.cc](https://www.arduino.cc/en/Main/Software).
+
+Next, you would have to integrate the board drivers of the ESP8266 into the Arduino IDE by copying the following:
+
+    http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+This link should be copied and pasted into the Additional Boards Manager URL field. This field can be found under **File > Preferences** . The window for this section should look like the following: 
+
+![preferences](images/setupPreference.png)
+
+Next, you will have to navigate to the board manager through the top menu using: **Tools > Boards > Board Manager** . You will then have to install the ESP8266 board drivers and made by the Arduino Community. The screen of the board manager will appear as this in Windows: 
+
+![boardManager](images/boardManager.png)
+
+After the installation, you may connect the ESP8266 development platform to your computer / laptop using a MicroUSB to USB cable to a USB Port of your device. After connecting, you will have to select the correct port of your ESP8266 platform. This is done through the top menu using **Tools > Port > COM#**, you will have to select the correct COM port of your device. 
+
+After the sucessful connection of your platform, you will then need to test your platform by running a simple **Blink Test** by using the following code:
+
+    void setup() {
+    pinMode(0, OUTPUT);
+    }
+ 
+    void loop() {
+    digitalWrite(0, HIGH);
+    delay(500);
+    digitalWrite(0, LOW);
+    delay(500);
+    }
+
+Upon the successful uploading of this code to your platform, you shall see the LEDs of the ESP8266 to be blinking. 
