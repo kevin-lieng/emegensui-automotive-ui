@@ -5,7 +5,7 @@
 --------------------------------------------------------
 - [Introduction](#Introduction)
 - [System Diagram](#System-Diagram)
-- [Components Needed (Cost)](#Components-Needed-(Cost))
+- [Components Needed (Cost)](#Components-Needed-Cost)
 
 --------------------------------------------------------
 ## Introduction
