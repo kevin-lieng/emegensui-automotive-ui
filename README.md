@@ -16,7 +16,7 @@ usage of this sensor to retrieve the data of basic movement and direction. Withi
 
 ## System Diagram
 
-![systemDiagram](images/systemDiagram.png)
+![systemDiagram](images/systemDiagram.png?style=centerme)
 
 Using the system diagram above, you can visualize how the BerryIMU interacts with the ESP8266 Development platform to retrieve the readings of the sensors within it. Although there are only two sensors that are being read within the above diagram, there are still several more sensors that can be used to retrieve data. 
 
