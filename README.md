@@ -109,3 +109,10 @@ When implemented correctly, your Arduino IDE window should look like the followi
 
 ### Step Four: Uploading and Checking Readings
 
+After the implementation, you may now upload the program into the ESP8266 development platform. After the successful upload of the program, you can open the Serial Monitor within the Arduino IDE to see the readings of the sensor. To test for movement, you may move the sensor around and check for movement in the readings. 
+
+The Serial Monitor can be found in the same top menu of Arduino IDE under **Tools > Serial Monitor**. When the correct window is open, the screen will look like the following: 
+
+![newReadings](images/newReadings.png)
+
+When you have achieved the window above, you are halfway complete the project and ready for the soldering of the PCB and creation of the enclosure. 
