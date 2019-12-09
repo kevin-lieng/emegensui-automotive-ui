@@ -1,5 +1,11 @@
 # EmergensUI Blog
 
+#### Blog Entry #17 (December 8, 2019)
+The build instructions have now been included within the README.md file within the repository.
+Please feel free to [click the following link](https://github.com/kevin-lieng/emegensui-automotive-ui/). 
+
+The link above will include the readme file at the bottom, available for reading. 
+
 #### Blog Entry #16 (November 25, 2019)
 The presentation for my hardware project has been completed and will be uploaded for viewing on my GitHub account following this blog post. Currently on schedule and ready to present November 26, 2019 at 2:15PM. 
 
