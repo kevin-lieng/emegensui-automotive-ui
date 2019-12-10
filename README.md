@@ -1,10 +1,21 @@
 # 2019 - 2020 AutomotiveUI (IMU Sensor)
 ## BerryIMU + ESP8266 Build Instructions
 
+## System Diagram
+
+![systemDiagram](images/systemDiagram.png?style=centerme)
+
+Using the system diagram above, you can visualize how the BerryIMU interacts with the ESP8266 Development platform to retrieve the readings of the sensors within it. Although there are only two sensors that are being read within the above diagram, there are still several more sensors that can be used to retrieve data. 
+
+## Introduction
+--------------------------------------------------------
+BerryIMU is a third-party made PCB board that has several sensors that can be used to retrieve data. IMU stands for Inertial Measurement Unit, these are the units that relate to the movement of something. Not only is this third-party sensor capable of reading movement, but it can also read temperature, pressure, and geographical location. However, this documentation will be discussing the 
+usage of this sensor to retrieve the data of basic movement and direction. Within this repository, you will find the multiple files that are available to use alongside with the instructions given for public use. These files can aid in the installation of the hardware and the software needed for the basic functionality of retrieving intertial and directional data. 
+
 ## Table of Contents 
 --------------------------------------------------------
-- [Introduction](#Introduction)
 - [System Diagram](#System-Diagram)
+- [Introduction](#Introduction)
 - [Components Needed (Cost)](#Components-Needed-Cost)
 - [Time Commitment](#time-commitment)
 - [Mechanical Assembly](#mechanical-assembly)
@@ -12,16 +23,6 @@
 - [Enclosure](#Enclosure)
 
 --------------------------------------------------------
-## Introduction
---------------------------------------------------------
-BerryIMU is a third-party made PCB board that has several sensors that can be used to retrieve data. IMU stands for Inertial Measurement Unit, these are the units that relate to the movement of something. Not only is this third-party sensor capable of reading movement, but it can also read temperature, pressure, and geographical location. However, this documentation will be discussing the 
-usage of this sensor to retrieve the data of basic movement and direction. Within this repository, you will find the multiple files that are available to use alongside with the instructions given for public use. These files can aid in the installation of the hardware and the software needed for the basic functionality of retrieving intertial and directional data. 
-
-## System Diagram
-
-![systemDiagram](images/systemDiagram.png?style=centerme)
-
-Using the system diagram above, you can visualize how the BerryIMU interacts with the ESP8266 Development platform to retrieve the readings of the sensors within it. Although there are only two sensors that are being read within the above diagram, there are still several more sensors that can be used to retrieve data. 
 
 ## Components Needed (Cost)
 -------------------------------------------------------
